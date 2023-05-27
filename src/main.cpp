@@ -2,7 +2,8 @@
 #include "lvgl.h"
 #include "app_hal.h"
 
-#include "demos/lv_demos.h"
+//#include "demos/lv_demos.h"
+#include "ui.h"
 
 #if defined( NATIVE )
     /**
@@ -24,7 +25,8 @@ void setup() {
 
 	hal_setup();
 
-  	lv_demo_widgets();
+  	//lv_demo_widgets();
+	lv_example_btn_1();
 }
 
 void loop() {

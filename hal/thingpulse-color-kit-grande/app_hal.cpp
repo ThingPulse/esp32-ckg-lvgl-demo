@@ -15,6 +15,7 @@ void my_disp_flush( lv_disp_drv_t *disp, const lv_area_t *area, lv_color_t *colo
 void my_touchpad_read( lv_indev_drv_t * indev_driver, lv_indev_data_t * data );
 
 void hal_setup(void) {
+    Serial.begin(115200);
     initTouchScreen(&ts);
     initTft(&tft);
 
