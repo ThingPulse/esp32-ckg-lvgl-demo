@@ -24,8 +24,8 @@ jobs:
           pip install -U platformio
           platformio update
 
-      - name: Build bare metal (stm32f429_disco)
-        run: platformio run -e stm32f429_disco
+      - name: Build bare metal (thingpulse-color-kit-grande)
+        run: platformio run -e thingpulse-color-kit-grande
 
       - name: Build emulator (sdl2, 64bits)
         run: platformio run -e emulator_64bits
@@ -69,8 +69,8 @@ jobs:
           pip install -U platformio
           platformio update
 
-      - name: Build bare metal (stm32f429_disco)
-        run: platformio run -e stm32f429_disco
+      - name: Build bare metal (thingpulse-color-kit-grande)
+        run: platformio run -e thingpulse-color-kit-grande
 
       - name: Build emulator (sdl2, 64bits)
         run: platformio run -e emulator_64bits
@@ -98,8 +98,8 @@ jobs:
           pip install -U platformio
           platformio update
 
-      - name: Build bare metal (stm32f429_disco)
-        run: platformio run -e stm32f429_disco
+      - name: Build bare metal (thingpulse-color-kit-grande)
+        run: platformio run -e thingpulse-color-kit-grande
 
       - name: Build emulator (sdl2, 64bits)
         run: platformio run -e emulator_64bits
